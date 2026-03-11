@@ -1,17 +1,10 @@
-# This is a sample Python script.
+from src.helpers.cargadorDatos import cargadorDatos
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+ruta = "../data/raw/tmdb_2020_to_2025.csv"
 
+cargador = cargadorDatos(ruta)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+cargador.cargarDatos()
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-print("test")
+print(cargador.valoresNulos())
+print(cargador.porcentajeNulos())
