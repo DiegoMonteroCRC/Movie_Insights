@@ -18,7 +18,7 @@ Colegio Universitario de Cartago
 Osvaldo Gonzalez Chavez
 
 
-## Descripción
+# Descripción
 
 Movie Insights es un sistema desarrollado en Python que permite ingestar, limpiar, analizar y visualizar datos de películas provenientes de archivos CSV. El sistema está construido bajo el paradigma de Programación Orientada a Objetos (POO) y cuenta con tres componentes principales:
 
@@ -33,6 +33,7 @@ El dataset utilizado proviene de TMDB (The Movie Database) y contiene informaci�
 
 - [@DiegoMonteroCRC](https://github.com/DiegoMonteroCRC)
 - [@nadinrojas](https://github.com/nadinrojas)
+
 # Estructura del proyecto
 
 ```plaintext
@@ -61,7 +62,7 @@ Movie_Insights/
 ├── README.md
 └── LICENSE
 ```
-## Tecnologías
+# Tecnologías
 
 **IDE:** PyCharm
 
@@ -74,7 +75,7 @@ Movie_Insights/
 **Control de versiones:** Github 
 
 
-# Como ejecutar?
+# ¿Como ejecutar?
 
 ## 1.Clonar el repositorio
 
@@ -136,7 +137,8 @@ Análisis Exploratorio de Datos documentado que incluye:
 - Análisis de valores nulos y outliers
 - Matriz de correlación
 - Visualizaciones de distribución
-## Dataset
+  
+# Dataset
 
 **Fuente** TMDB (The Movie Database)
 
