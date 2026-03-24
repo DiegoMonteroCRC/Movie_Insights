@@ -250,15 +250,13 @@ elif seccion == "El Efecto Pandemia":
     tabla["Votos Totales"] = tabla["Votos Totales"].apply(lambda x: f"{int(x):,}")
     st.dataframe(tabla.reset_index(drop=True), use_container_width=True)
 
-    st.warning("2020 y 2021 tuvieron menos estrenos que los años siguientes, pero el votos promedio por pelicula fue mas alto — consistente con la hipotesis de que el publico encerrado en casa interactuaba mas con el cine.")
-
 
 # 4. DOMINIO DEL INGLES
 
 elif seccion == "El Dominio del Ingles":
     st.markdown("## El Dominio del Ingles... pero no en Calidad")
     st.markdown("""
-    > El ingles domina en **cantidad** (56% de las peliculas), pero en **calidad es de los peores** con 4.47 de promedio.
+    > El ingles domina en **cantidad**, pero no en calidad.
     > El coreano lidera en calidad con **5.94** — el cine coreano es claramente mas apreciado por su audiencia.
     """)
 
