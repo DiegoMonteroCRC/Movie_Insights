@@ -74,7 +74,7 @@ Movie_Insights/
 | Tipo | Detalle |
 |---|---|
 | **IDE** | PyCharm |
-| **Lenguaje** | Python 3.x |
+| **Lenguaje** | Python |
 | **Librerías** | Pandas, Streamlit, Matplotlib, Seaborn |
 | **Herramientas** | Jupyter Notebook |
 | **Control de versiones** | GitHub |
